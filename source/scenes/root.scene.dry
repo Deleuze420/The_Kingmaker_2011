@@ -104,9 +104,9 @@ Q.ff_relation = 50;
 Q.sp_relation = 25;
 Q.pd_relation = 60;
 Q.fg_relation = 35;
-// DNVP and NSDAP are invariably hostile
-Q.DNVP_relation = 10;
-Q.NSDAP_relation = 0;
+// GP and SF are invariably hostile
+Q.GP_relation = 10;
+Q.SF_relation = 0;
 
 Q.sp_leader = "Thälmann";
 // alternative is the Conciliators as party leader
@@ -114,7 +114,7 @@ Q.sp_party_leader = "Thälmann";
 Q.ff_leader = "Brüning";
 // party leader - can be Ludwig Kaas, Joseph Joos, or Adam Stegerwald after the 2008 December conference. Joos will be most friendly to the LP.
 Q.ff_party_leader = "Marx";
-Q.nsdap_leader = "Hitler";
+Q.sf_leader = "Hitler";
 
 // hmm... maybe we can play nice with Hindenburg???
 Q.hindenburg_relation = 25;
@@ -122,7 +122,7 @@ Q.hindenburg_relation = 25;
 
 // Does the LP lead in Prussia?
 Q.lp_prussia = 1;
-// Options: lp, ff, dnvp, papen, nsdap
+// Options: lp, ff, gp, papen, sf
 Q.prussian_government = "LP";
 
 // The array of forces - paramilitary groups
@@ -182,7 +182,7 @@ Q.presidential_powers = 0;
 // allows banning of non-constitutional parties
 Q.constitutional_protection = 0;
 Q.sp_banned = 0;
-Q.nsdap_banned = 0;
+Q.sf_banned = 0;
 
 // coups and capital strikes happen when you upset the right or the capitalists too much with your policies. they're an additional check on your policies, when purely electoral checks don't suffice.
 // when coup_progress reaches 10 or capital_strike_progress reaches 10, there's a special event that launches the coup.
@@ -225,7 +225,7 @@ Q.old_middle_qol = 100;
 Q.new_middle_qol = 100;
 
 Q.classes = ['workers', 'old_middle', 'new_middle', 'rural', 'unemployed', 'catholics'];
-Q.parties = ['lp', 'sp', 'ff', 'pd', 'fg', 'dnvp', 'nsdap', 'other'];
+Q.parties = ['lp', 'sp', 'ff', 'pd', 'fg', 'gp', 'sf', 'other'];
 
 // TODO: add 'sapd' later on
 Q.sapd_formed = 0;
@@ -237,8 +237,8 @@ Q.workers_sp = 20;
 Q.workers_ff = 5;
 Q.workers_pd = 0;
 Q.workers_fg = 0;
-Q.workers_dnvp = 5;
-Q.workers_nsdap = 0;
+Q.workers_gp = 5;
+Q.workers_sf = 0;
 Q.workers_other = 10;
 
 Q.old_middle_lp = 5;
@@ -246,8 +246,8 @@ Q.old_middle_sp = 0;
 Q.old_middle_ff = 5;
 Q.old_middle_pd= 10;
 Q.old_middle_fg = 25;
-Q.old_middle_dnvp = 25;
-Q.old_middle_nsdap = 10;
+Q.old_middle_gp = 25;
+Q.old_middle_sf = 10;
 Q.old_middle_other = 10;
 
 Q.new_middle_lp = 5;
@@ -255,8 +255,8 @@ Q.new_middle_sp = 1;
 Q.new_middle_ff = 10;
 Q.new_middle_pd= 25;
 Q.new_middle_fg = 25;
-Q.new_middle_dnvp = 10;
-Q.new_middle_nsdap = 5;
+Q.new_middle_gp = 10;
+Q.new_middle_sf = 5;
 Q.new_middle_other = 15;
 
 Q.rural_lp = 10;
@@ -264,8 +264,8 @@ Q.rural_sp = 0;
 Q.rural_ff = 5;
 Q.rural_pd= 5;
 Q.rural_fg = 15;
-Q.rural_dnvp = 45;
-Q.rural_nsdap = 5;
+Q.rural_gp = 45;
+Q.rural_sf = 5;
 Q.rural_other = 10;
 
 Q.unemployed_lp = 25;
@@ -273,8 +273,8 @@ Q.unemployed_sp = 55;
 Q.unemployed_ff = 1;
 Q.unemployed_pd = 0;
 Q.unemployed_fg = 0;
-Q.unemployed_dnvp = 5;
-Q.unemployed_nsdap = 15;
+Q.unemployed_gp = 5;
+Q.unemployed_sf = 15;
 Q.unemployed_other = 9;
 
 Q.catholics_lp = 15;
@@ -282,8 +282,8 @@ Q.catholics_sp = 2;
 Q.catholics_ff = 50;
 Q.catholics_pd = 0;
 Q.catholics_fg = 5;
-Q.catholics_dnvp = 5;
-Q.catholics_nsdap = 0;
+Q.catholics_gp = 5;
+Q.catholics_sf = 0;
 Q.catholics_other = 12;
 
 
@@ -298,9 +298,9 @@ Q.sp_r = 0;
 Q.ff_r = 47;
 Q.pd_r = 1.2;
 Q.fg_r = 30.9;
-Q.dnvp_r = 0;
-Q.nsdap_r = 0;
-Q.other_r = 9;
+Q.gp_r = 3.6;
+Q.sf_r = 2.4;
+Q.other_r = 3;
 
 // diff from prev
 Q.old_lp_r = 26;
@@ -308,8 +308,8 @@ Q.old_sp_r = 9;
 Q.old_ff_r = 17;
 Q.old_pd_r = 6;
 Q.old_fg_r = 10;
-Q.old_dnvp_r = 20;
-Q.old_nsdap_r = 3;
+Q.old_gp_r = 20;
+Q.old_sf_r = 3;
 Q.old_other_r = 9;
 
 // sapd isn't formed yet, but it may be formed
@@ -336,9 +336,9 @@ Q.lp_in_government = 0;
 Q.ff_in_government = 1;
 Q.pd_in_government = 0;
 Q.fg_in_government = 1;
-Q.dnvp_in_government = 1;
+Q.gp_in_government = 1;
 Q.sp_in_government = 0;
-Q.nsdap_in_government = 0;
+Q.sf_in_government = 0;
 
 Q.in_right_coalition = 0;
 // Weimar coalition = LP + FF + PD
@@ -375,9 +375,9 @@ Q.minority_government = 0;
 Q.foreign_minister = 'Streseman';
 Q.foreign_minister_party = 'FG';
 Q.interior_minister = 'von Keudell';
-Q.interior_minister_party = 'DNVP';
+Q.interior_minister_party = 'GP';
 Q.justice_minister = 'Hergt';
-Q.justice_minister_party = 'DNVP';
+Q.justice_minister_party = 'GP';
 Q.labor_minister = 'Brauns';
 Q.labor_minister_party = 'FF';
 Q.reichswehr_minister = 'Groener';
@@ -387,7 +387,7 @@ Q.economic_minister_party = 'FG';
 Q.finance_minister = 'Köhler';
 Q.finance_minister_party = 'FF';
 Q.agriculture_minister = 'Schiele';
-Q.agriculture_minister_party = 'DNVP';
+Q.agriculture_minister_party = 'GP';
 
 // Events: what has occurred?
 Q.panfferkreuffer_seen = 0;

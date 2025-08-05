@@ -343,8 +343,8 @@ Q.sf_in_government = 0;
 Q.in_right_coalition = 0;
 // Weimar coalition = LP + FF + PD
 Q.in_weimar_coalition = 0;
-// Grand coalition = LP + FF +  + PD + FG
-// also includes the "new grand coalition" of LP + FF +  + PD + FG + Others
+// Grand coalition = LP + FF + PD + FG
+// also includes the "new grand coalition" of LP + FF + PD + FG + Others
 Q.in_grand_coalition = 0;
 // Popular front = LP + SP + FF + PD
 Q.in_popular_front = 0;

@@ -329,9 +329,9 @@ Q.economic_records = [];
 
 // State of the government
 Q.president = "Hindenburg";
-// starting chancellor: Wilhelm Marx
-Q.chancellor = "Marx";
-Q.chancellor_party = 'FF';
+// starting chancellor: Bertie Ahern
+Q.chancellor = "Mary McaAleese";
+Q.chancellor_party = 'other';
 Q.lp_in_government = 0;
 Q.ff_in_government = 1;
 Q.pd_in_government = 0;

@@ -299,7 +299,7 @@ Q.ff_r = 47;
 Q.pd_r = 1.2;
 Q.fg_r = 30.9;
 Q.gp_r = 3.6;
-Q.sf_r = 2.4;
+Q.sf_r = 2.2;
 Q.other_r = 3;
 
 // diff from prev

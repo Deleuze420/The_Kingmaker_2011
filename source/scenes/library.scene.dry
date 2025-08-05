@@ -335,7 +335,7 @@ Dissent: [+ neorevisionist_dissent : dissent +]
 @figures
 title: Figures and Charts
 go-to: menu
-on-arrival: ff_minus_bvp_r = ff_r - 3;
+on-arrival: ff_r = ff_r - 3;
 on-display: {!
 data = [
     {
@@ -421,7 +421,7 @@ if (d3 && window) {
     var lines = d3.linegraph(false, false,
             Q.parties,
             {'lp': '#E3000F', 'sp': '#8B0000', 'pd': '#DCCA4A', 'ff': '#000', 'fg': '#D5AC27', 'gp': '#3f7bc1', 'sf': '#954B00', 'other': '#a0a0a0', 'sapd': '#c40000'},
-            {'lp': 'LP', 'sp': 'SP', 'pd': Q.pd_name, 'ff': 'FF + BVP', 'fg': 'FG', 'gp': 'GP', 'sf': 'SF', 'other': 'Others', 'sapd': 'SAPD'});
+            {'lp': 'LP', 'sp': 'SP', 'pd': Q.pd_name, 'ff': 'FF', 'fg': 'FG', 'gp': 'GP', 'sf': 'SF', 'other': 'Others', 'sapd': 'SAPD'});
     lines.width(width).height(400);
     //var svg = lines(Q.election_records);
     if (Q.election_records.length > 0) {

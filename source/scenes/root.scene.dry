@@ -290,7 +290,7 @@ Q.catholics_other = 12;
 // Current Reichstag composition
 // % of Reichstag in Jan 2008
 // source: wikipedia
-// note: the FF figures also include the BVP (Bavarian people's party)
+// note: the FF figures also include the  (Bavarian people's party)
 // since they were ideologically similar, but they were separate parties.
 // They did not have a CDU/CSU-style relationship.
 Q.lp_r = 12.1;
@@ -343,8 +343,8 @@ Q.sf_in_government = 0;
 Q.in_right_coalition = 0;
 // Weimar coalition = LP + FF + PD
 Q.in_weimar_coalition = 0;
-// Grand coalition = LP + FF + BVP + PD + FG
-// also includes the "new grand coalition" of LP + FF + BVP + PD + FG + Others
+// Grand coalition = LP + FF +  + PD + FG
+// also includes the "new grand coalition" of LP + FF +  + PD + FG + Others
 Q.in_grand_coalition = 0;
 // Popular front = LP + SP + FF + PD
 Q.in_popular_front = 0;

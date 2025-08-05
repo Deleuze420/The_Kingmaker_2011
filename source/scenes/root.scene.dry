@@ -300,7 +300,7 @@ Q.pd_r = 1.2;
 Q.fg_r = 30.9;
 Q.dnvp_r = 0;
 Q.nsdap_r = 0;
-Q.other_r = 3.6;
+Q.other_r = 6;
 
 // diff from prev
 Q.old_lp_r = 26;

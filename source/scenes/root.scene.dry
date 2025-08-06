@@ -329,9 +329,9 @@ Q.economic_records = [];
 
 // State of the government
 Q.president = "McAleese";
-// starting chancellor: Bertie Ahern
-Q.chancellor = "Bertie Ahern";
-Q.chancellor_party = 'FF';
+// starting taoiseach: Bertie Ahern
+Q.taoiseach = "Bertie Ahern";
+Q.taoiseach_party = 'FF';
 Q.lp_in_government = 0;
 Q.ff_in_government = 1;
 Q.pd_in_government = 0;
@@ -474,7 +474,7 @@ Q.timers = ['advisor_action', 'confronting_naffis', 'crisis_program',
             'education_science', 'curriculum',
             // events
             'emergency_cuts', 'unemployment_insurance',
-            'sa_ban', 'sh_ban', 'papen_chancellor',
+            'sa_ban', 'sh_ban', 'papen_taoiseach',
             'sp_policy', 'sp_ultimatum', 'popular_front_dispute',
             'high_inflation', 'banking_crisis', 'march_on_berlin',
             'understanding_enemy', 'schleichers_schemes'];

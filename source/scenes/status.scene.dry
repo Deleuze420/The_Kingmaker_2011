@@ -33,7 +33,7 @@ Internal dissent: [+ dissent_percent : dissent +]
 
 President: [+ president +]
 
-Chancellor: [+ chancellor +] ([+ chancellor_party +])
+Taoiseach: [+ taoiseach +] ([+ taoiseach_party +])
 
 Reichstag composition:
 
@@ -41,7 +41,7 @@ Reichstag composition:
 {!<span class="tooltip-text" title="Social Democratic Party of Germany">LP</span>!}: [+ lp_r +]%
 [? if sapd_formed and sapd_r > 0: SAPD: [+ sapd_r +]% ?]
 # 1928: 15, 1930: 15, 1932: 
-{!<span class="tooltip-text" title="Center Party + Bavarian People's Party">FF + BVP</span>!}: [+ ff_r +]%
+{!<span class="tooltip-text" title="Center Party + Bavarian People's Party">FF</span>!}: [+ ff_r +]%
 # 1928: 10, 1930: 13
 {!<span class="tooltip-text" title="Communist Party of Germany">SP</span>!}: [+ sp_r +]%
 # 1928: 5, 1930: 4 (as DstP)

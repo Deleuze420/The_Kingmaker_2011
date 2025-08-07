@@ -1,5 +1,5 @@
 title: Next month
-set-bg: img/dublin_background.png
+set-bg: img/dublin background.png
 is-hand: true
 on-arrival: {!
 if (Q.advisor_action_timer <= 0) {
@@ -47,7 +47,7 @@ max-cards: 4
 
 @party
 title: Party Affairs
-card-image: out/img/party_affairs_card.jpg
+card-image: img/party_affairs_card.jpg
 is-deck: true
 
 - #party_affairs

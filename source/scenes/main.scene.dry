@@ -1,5 +1,5 @@
 title: Next month
-set-bg: img/dublin_background.png
+set-bg: img/All_Quiet.jpg
 is-hand: true
 on-arrival: {!
 if (Q.advisor_action_timer <= 0) {
